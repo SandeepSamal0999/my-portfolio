@@ -7,7 +7,7 @@ on:
 
   pull_request:
     branches:
-      - main
+      - dev
 
 jobs:
   build:
@@ -29,5 +29,5 @@ jobs:
       - name: Run lint
         run: npm run lint
 
-      - name: Build application
+      - name: Build Next.js
         run: npm run build
