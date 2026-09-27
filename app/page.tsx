@@ -153,7 +153,7 @@ export default function Home() {
               hover:bg-lime-200
             "
           >
-            Let's talk
+            Let&apos;s talk
             <ArrowUpRight size={15} />
           </a>
         </div>
@@ -307,7 +307,7 @@ export default function Home() {
         />
 
         <div className="mt-14">
-          {experience.map((item, index) => (
+          {experience.map((item) => (
             <div
               key={item.company}
               className="relative grid md:grid-cols-[180px_1fr]"
